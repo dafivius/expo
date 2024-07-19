@@ -15,6 +15,7 @@
 - Add fullscreen enter and exit events. ([#30922](https://github.com/expo/expo/pull/30922) by [@fobos531](https://github.com/fobos531))
 - [iOS] Fixed `player.currentTime` being `NaN` when source is not provided and `player.duration` being `NaN` inside the hook callback when the source is updated. ([#31011](https://github.com/expo/expo/pull/31011) by [@AlirezaHadjar](https://github.com/AlirezaHadjar))
 - Add support for playback of local assets imported with the `require` function. ([#30837](https://github.com/expo/expo/pull/30837) by [@behenate](https://github.com/behenate))
+- [Web] Add support for Picture in Picture. ([#30524](https://github.com/expo/expo/pull/30524) by [@behenate](https://github.com/behenate))
 
 ### 🐛 Bug fixes
 
