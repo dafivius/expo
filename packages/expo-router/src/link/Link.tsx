@@ -62,11 +62,9 @@ export interface WebAnchorProps {
   download?: string;
 }
 
-export interface LinkProps<T extends string | object>
-  extends Omit<TextProps, 'href'>,
-    WebAnchorProps {
+export interface LinkProps extends Omit<TextProps, 'href'>, WebAnchorProps {
   /** Path to route to. */
-  href: Href<T>;
+  href: Href;
 
   // TODO(EvanBacon): This may need to be extracted for React Native style support.
   /** Forward props to child component. Useful for custom buttons. */

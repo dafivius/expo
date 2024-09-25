@@ -50,9 +50,9 @@ export interface WebAnchorProps {
      */
     download?: string;
 }
-export interface LinkProps<T extends string | object> extends Omit<TextProps, 'href'>, WebAnchorProps {
+export interface LinkProps extends Omit<TextProps, 'href'>, WebAnchorProps {
     /** Path to route to. */
-    href: Href<T>;
+    href: Href;
     /** Forward props to child component. Useful for custom buttons. */
     asChild?: boolean;
     /** Should replace the current route without adding to the history. */
